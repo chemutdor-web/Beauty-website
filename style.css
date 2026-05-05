@@ -58,7 +58,7 @@ ul li{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin: 10px auto;
-    
+
 
 
 
@@ -93,7 +93,52 @@ button:hover{
 footer{
 background:#333;
 color:aliceblue;
-padding:15px;
+padding:10px;
 text-align: center;
+}
+.service-card{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+
+}
+
+
+.service-card img{
+    width:50%;
+    border-radius: 10px;
+    object-fit: cover;
+    padding: 15px;
+    height: 250px;
+}
+.service-card h3{
+    margin: 15px 0 5px;
+
+}
+.price{
+    color:pink;
+    font-weight: bold;
+    margin:10px 0;
+
+}
+.service-card button{
+    margin-top: 10px;
+    padding: 8px 15px ;
+    border:none;
+    color:white;
+    border-radius: 5px;
+
+}
+.service-container{
+    display: grid;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    padding:12px;
+    max-width: 50px;
+}
 
 
