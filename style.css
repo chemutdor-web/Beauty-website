@@ -244,6 +244,13 @@ text-align: center;
     margin:20px auto;
 
 }
-.service-image
+.services-container{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    padding: 40px;
+    
+
+}
 
 
