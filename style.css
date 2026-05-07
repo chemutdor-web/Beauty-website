@@ -268,5 +268,11 @@ clear:both;
 .booking-form:hover{
     background: #c2185b;
 }
+.container{
+    max-width: 600px;
+    padding:20px;
+    font-family: sans-serif;
+    margin: 40px auto;
+}
 
 
