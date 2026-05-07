@@ -7,20 +7,26 @@ document.querySelector(".book-btn").addEventListener("click", function () {
 document
   .querySelector(".booking-form")
   .addEventListener("submit", function (event) {
-    let name = document.querySelector(".name").value;
-    let date = document.querySelector(".date").value;
+    const name = document.querySelector(".name").value;
+    const date = document.querySelector(".date").value;
+    const message = document.querySelector(".message").value;
 
     if (name === "" || date === "") {
       alert("please fill in all fields!");
       event.preventDefault();
     } else {
-      // add loca storage to store the data
+      // create booking objects
       const bookingData = {
         customerName: name,
-        appointmentDate: date,
+        customerEmail:email,
+        customerMessage:message
+
+
       };
       // convert the object to a string and save it
       localStorage.setItem("latestBooking", JSON.stringify(bookingData));
+
+    //   succes message
 
       alert("Appointment booked succefully!");
     }

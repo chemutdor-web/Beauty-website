@@ -209,7 +209,7 @@ text-align: center;
 
 }
 .image-row{
-    display:grid;
+    display:inline-block;
     gap: 10px;
 }
 .image-row img{
@@ -233,7 +233,7 @@ text-align: center;
 
 }
 .service-container{
-    display: flex;
+    display:flexbox;
     justify-content: space-between;
     gap: 25px;
     flex-wrap: wrap;
@@ -245,7 +245,7 @@ text-align: center;
 
 }
 .services-container{
-    display: flex;
+    display: flexbox;
     gap:20px;
     justify-content:space-between;
     padding: 25px;
