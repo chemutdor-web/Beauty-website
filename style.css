@@ -17,10 +17,6 @@ header{
     margin-bottom: 0;
     padding-bottom: 0cap;
     align-items: center;
-
-
-
-
     
 
 }
@@ -265,7 +261,7 @@ clear:both;
     margin:auto;
     background: #f9f9f9;
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     margin-top: 20px;
 }
