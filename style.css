@@ -247,7 +247,7 @@ text-align: center;
 .services-container{
     display: flex;
     gap:20px;
-    justify-content: center;
+    justify-content:end;
     padding: 30px;
 
 

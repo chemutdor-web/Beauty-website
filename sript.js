@@ -13,6 +13,11 @@ document.querySelector(".booking-form").addEventListener("submit",function(event
         event.preventDefault();
     } else {
         alert("Appointment booked succefully!");
+        // add loca storage to store the data
+        const bookingData ={
+            customerName:name,
+            appointmentDate:date
+        };
     }
 });
 
