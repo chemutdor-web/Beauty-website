@@ -274,5 +274,12 @@ clear:both;
     font-family: sans-serif;
     margin: 40px auto;
 }
+h5{
+    color:#e91e63;
+}
+.contact- form{
+    display:flex;
+    gap:15px;
+}
 
 
