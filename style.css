@@ -245,12 +245,31 @@ text-align: center;
 
 }
 .services-container{
-    display: flex;
+    display: grid;
     gap:30px;
     justify-content: center;
     padding: 40px;
-    
 
+
+}
+.contact-section{
+    background: #fff;
+    padding:50px 20px;
+    text-align:center;
+}
+.contact-section h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+    
+}
+/* form box */
+.booking-form{
+    max-width: 400px;
+    margin:auto;
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 
