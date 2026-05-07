@@ -3,7 +3,7 @@ document.querySelector(".book-btn").addEventListener("click",function(){
     alert("Booking feature coming soon!");
 });
 
-// Form Validation
+// Form Validation & local storage
 document.querySelector(".booking-form").addEventListener("submit",function(event){
     let name=document.querySelector(".name").value;
     let date=document.querySelector(".date").value;
