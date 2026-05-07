@@ -175,6 +175,7 @@ button{
     padding:12px;
     border-radius: 8px;
     cursor:pointer;
+    margin-top: 20px;
 
 }
 button:hover{
@@ -184,8 +185,9 @@ button:hover{
 footer{
 background:#333;
 color:aliceblue;
-padding:10px;
+padding:30px;
 text-align: center;
+clear:both;
 }
 .service-card{
     background-color: #fff;
@@ -210,13 +212,14 @@ text-align: center;
 }
 .image-row{
     display:flex;
-    gap: 10px;
+    gap: 80px;
+
 }
 .image-row img{
-    width: 100%;
+    width: 80%;
     object-fit: cover;
-    border-radius: 30px;
-    height: 140px;
+    border-radius: 40px;
+    height: 130px;
 }
 .price{
     color:pink;
@@ -232,28 +235,17 @@ text-align: center;
     border-radius: 5px;
 
 }
-.service-container{
-    display:grid;
-    justify-content: space-between;
-    gap: 25px;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(3,1fr);
-    padding:20px;
-    background-color: #f9f9f9;
-    max-width: 600px;
-    margin:20px auto;
 
-}
+
 .services-container{
-    display: grid;
-    gap:20px;
-    justify-content:space-between;
-    padding: 25px;
+    display:inline-block;
+    gap:50px;
+    justify-content:center;
+    padding: 50px;
     background-color:#ffe6eb ;
-    
-
-
-
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
 
 }
 .contact-section{
@@ -274,6 +266,7 @@ text-align: center;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
 .booking-form:hover{
     background: #c2185b;
