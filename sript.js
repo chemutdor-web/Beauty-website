@@ -1,6 +1,4 @@
-document.querySelector(".book-btn").addEventListener("click", function(){
-    alert(".Booking feature coming soon!");
-});
+
 // Form validation& local storage
 
 document.querySelector(".booking-form").addEventListener("submit", function (event){
