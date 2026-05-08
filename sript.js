@@ -13,7 +13,7 @@ document.querySelector(".booking-form").addEventListener("submit", function (eve
 
     if(name === ""|| date === ""|| email === ""){
         alert("please fill in all fields");
-
+        
     } else{
         // create booking object
         const bookingData = {
@@ -39,34 +39,4 @@ document.querySelector(".booking-form").addEventListener("submit", function (eve
 
 });
 
-    if (name === "" || date === "") {
-      alert("please fill in all fields!");
-      event.preventDefault();
-    } else {
-      // create booking objects
-      const bookingData = {
-        customerName: name,
-        customerEmail:email,
-        customerMessage:message
-
-
-      };
-      // convert the object to a string and save it
-      localStorage.setItem("latestBooking", JSON.stringify(bookingData));
-
-    //   succes message
-
-      alert("Appointment booked succefully!");
-    }
-    
-  });
-
-// retrive data when the page loads
-window.onload = function(){
-    const saveData = localStorage.getItem("latestBooking");
-    if(savedData){
-        const booking = JSON.parse(savedData);
-        console.log("Last bookingfound for:",booking.customersName);
-    }
-}
 
